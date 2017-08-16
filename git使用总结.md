@@ -35,6 +35,15 @@
 6. git checkout --file修改全部撤销（修改工作区）
 7. git reset HEAD 把暂存区的内容修改到工作区。
 8. git rm用于从版本库删除文件。
+9. git tag用于版本打标签。
+10. git show <tagname>查看标签信息
+11. git tag -a <tagname> -m "blablabla..."可以指定标签信息
+12. git tag -s <tagname> -m "blablabla..."可以用PGP签名标签
+13. git tag -d <tagname>删除标签
+14. git push origin <tagname>推送标签到远程
+15. git push origin --tags推送全部标签到远程
+16. git remote -v 查看以关联的远程库
+17. git remote rm<name>删除已有的远程库
 
 ###远程仓库
 
@@ -42,7 +51,7 @@
 
 >     1. 在GitHub上创建好项目（名称最好和本地名称一致）
 >     2. 在本地运行命令git remote add origin git@github.com:18671161309/git-direction.git进行关联
->     3. 把本地文件推送到Github运行git pish-u origin master
+>     3. 把本地文件推送到Github运行git push-u origin master
 
 >碰到的问题:
 >
