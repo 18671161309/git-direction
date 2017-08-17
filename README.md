@@ -1,1 +1,1 @@
-# git-direction
+git扮酷管理使用说明
